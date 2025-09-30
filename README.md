@@ -42,13 +42,14 @@
 ---
 
 ## 🛠️ Setup Instructions
-
+---
 ### 🔁 Clone the Repo
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
+---
 
 🚀 Run with Docker (Recommended)
 
@@ -60,6 +61,7 @@ docker-compose up --build
 React frontend: http://localhost:3000
 Flask/Django backend: http://localhost:5000 (or 8000 for Django)
 
+---
 
 🧰 Local Setup (Without Docker)
 1. Backend Setup (Python)
@@ -87,6 +89,7 @@ npm install      # or yarn
 npm start        # or yarn start
 **
 
+---
 
 ⚙️ Environment Variables
 Create a .env file in the root and backend directories:
@@ -96,21 +99,23 @@ FLASK_ENV=development
 SECRET_KEY=your_secret_key
 DATABASE_URL=sqlite:///db.sqlite3
 
+---
 
 📌 TODOs
  Add unit tests
  Implement user auth
  Setup CI/CD with GitHub Actions
 
+---
 
 📄 License
 This project is licensed under the MIT License
 
+---
 
 🙋‍♂️ Author
 TAG-TT
 
-**
 ---
 
 ## 📌 How to Use It
@@ -124,4 +129,3 @@ TAG-TT
    - Your name and links
 
 ---
-**
